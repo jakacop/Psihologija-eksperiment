@@ -1,0 +1,13 @@
+\select@language {german}
+\select@language {slovene}
+\contentsline {section}{\numberline {1}Teoreti\v cni uvod}{3}
+\contentsline {subsection}{\numberline {1.1}Krivulje u\v cenja}{3}
+\contentsline {section}{\numberline {2}Problem}{5}
+\contentsline {section}{\numberline {3}Hipoteze}{6}
+\contentsline {section}{\numberline {4}Postopek}{7}
+\contentsline {section}{\numberline {5}Rezultati}{8}
+\contentsline {subsection}{\numberline {5.1}Grafi\v cni prikaz rezultatov}{8}
+\contentsline {subsection}{\numberline {5.2}Poro\v cilo eksperimentatorja}{10}
+\contentsline {subsection}{\numberline {5.3}Introspektivno poro\v cilo}{10}
+\contentsline {section}{\numberline {6}Interpretacija}{11}
+\contentsline {section}{\numberline {7}Viri}{12}

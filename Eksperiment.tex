@@ -1,0 +1,176 @@
+\documentclass[12pt]{article}
+%
+\usepackage[a4paper]{geometry}
+\usepackage[slovene,english,german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[cp1250]{inputenc}
+\usepackage{graphicx}
+\usepackage{bchart}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{rotating}
+\captionsetup[table]{skip=10pt}
+%
+%
+\author{Jaka Èop}
+\title{Šifriranje od starega Egipta do sodobne kriptografije}
+%
+\begin{document}
+\pagestyle{fancy}
+\selectlanguage{slovene}
+\begin{centering}
+{\huge Gimnazija Viè}\\[.5cm]
+{\Large Tržaška cesta 72, Ljubljana}\\
+\vfill
+{\bf\Large Eksperiment pri psihologiji}\\[1cm]
+{\large Jaka Èop, 3. b}\\
+\vfill\vfill
+
+{\flushleft\large Mentor:
+\begin{itemize}
+  \item Majda Šajn Stjepiæ, prof. psihologije
+\end{itemize}}
+
+\vfill\vfill
+{\Large Ljubljana: šolsko leto 2015/16}
+
+\end{centering}
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Teoretièni uvod}
+
+\subsection{Krivulje uèenja}
+
+Krivulja uèenja je grafièni prikaz spreminjanja uènega uèinka zaradi uèenja. Dobimo jo tako, da nanesemo na absciso kolièino uèenja, na ordinato pa uèni uèinek.
+
+Empirièno so pri meritvah uènega uèinka v odvisnosti od èasa uèenja najpogosteje dobili negativno pospešeno krivuljo. V zaèetku znanje zelo hitro narašèa. Pogosto smo v zaèetku zelo motivirani, radovedni in navdušeni, ker se bomo nekaj novega nauèili. Snov je v zaèetku enostavnejša in jo lahko razumemo, zato jo tudi hitro usvajamo. Prek uènega prenosa pa nam pomaga tudi prejšnje znanje. Sèasoma vsi ti dejavniki popustijo in uèni uèinek zastane, potem pa prirastek skoraj ni veè opazen, uèenec je dosegel mejno raven. Znanje je ob mejni ravni redko absolutno (èe je sploh možno). Ljudje se razlikujemo po tem, kdaj dosežemo mejno raven, kdaj naše znanje kljub uèenju ne napreduje veè.
+
+To je odvisno od motivacije, od hotenja, prizadevanja, uènih navad, metode in tehnike uèenja pa tudi od sposobnosti. Sposobnosti so tiste, ki doloèajo dosežek našega prizadevanja. Prek meje, ki je genetsko doloèena ne moremo. Takšno mejno raven, ki jo doloèajo genske zasnove, imenujemo fiziološka mejna raven. Vendar to dosežejo le redki izjemno prizadevni ljudje. Takšni so naprimer vrhunski športniki. Najpogosteje pa se naše znanje ustavi na psihološki mejni ravni, ki je kompromis med motivacijo in naporom, da bi izkoristili svoje sposobnosti. Psihološko mejno raven lahko z dodatno motivacijo, s trudom in morda spremenjeno metodo uèenja presežemo. Na psihološki mejni ravni se je ustavilo naše znanje materinšèine, branja, pisanja, spretnost poklicnih šoferjev in strojepisk...
+
+Empirièno najredkejša krivulja je pozitivno pospešena krivulja. Dobimo jo kadar se uèimo èisto nove ali zelo težke snovi in nam spoèetka ne gre in ne gre. Èez èas, ko dojamemo in usvojimo temeljne zakonitosti, pa uèni uèinek zelo naglo poraste. Takšno krivuljo dobimo tudi v primeru, èe je naše predznanje neustrezno in nas ovira pri usvajanju novega (negativni transfer), ker moramo najprej odpraviti napake.
+
+Sigmoidna krivulja v obliki èrke S je sestavljena iz pozitivno in negativno pospešene krivulje. Uèni uèinek sprva narašèa poèasi, nato naglo poraste, potem pa se ustali na mejni ravni. Takšno krivuljo bi dobili pri vsakem uèenju, èe bi ga opazovali od samega zaèetka in èe bi uèenec vztrajal do konca, da bi izkoristil veèino svojih zmogljivosti.
+
+Individualne krivulje uèenja se zelo razlikujejo pri posameznikih po naklonu oz. hitrosti narašèanja uènega uèinka, po tem, kdaj se pojavi mejna raven oz. kako visoka je krivulja, ter po številu in pogostosti zèasnih ravni. Zaèasne ravni so tisti zastoji, po katerih uèni uèinek po doloèenem èasu znova narašèa.
+
+Lahko, da moramo na nov naèin organizirati nauèeno dejavnost in zato potrebujemo èas. Do zastoja lahko pride zaradi bolezni, utrujenosti, èustvenih dejavnikov in sprememb v motivaciji. Pomanjkanje samozavesti in strah zmanjšujeta uèinkovitost uèenja. Takšen zaèasen zastoj nas lahko opozarja, da moramo spremeniti metodo uèenja.
+
+\newpage
+
+%\subsection{Tehnike uèenja}
+
+\newpage
+
+\section{Problem}
+
+Z eksperimentom bomo poskušali ugotoviti najuèinkovitejši naèin za pomnjenje nesmiselnega gradiva.
+
+\newpage
+\section{Hipoteze}
+
+\begin{itemize}
+
+\item{Domnevamo, da si bodo uèenci, ki imajo v šoli boljši uspeh, lažje in hitreje zapomnili nesmiselne zloge,}
+\item{osebe, ki se bodo uèile s pomoèjo asociacij, si bodo hitreje zapomnile vse zloge,}
+\item{dobili bomo negativno pospešeno krivuljo.}
+
+\end{itemize}
+\newpage
+
+\section{Postopek}
+
+Preuèevanec: sošolec (moški, 17 let). \newline
+Pripomoèki: serija nesmiselnih zlogov (11), svinènik, list papirja, radirka. \newline
+Toèkovanje odgovorov: Za vsak pravilno ponovljen zlog, ki je tudi pravilno umešèen, damo 1 toèko. Za pravilno ponovljen zlog, ki ni na pravem mestu, pa damo pol toèke. \newline
+Potek preizkušnje: Sošolcu, bomo poèasi na glas prebrali serijo nesmiselnih zlogov, ki jih bo le-ta poskušal ponoviti v pravilnem vrstnem redu. Poskus bomo zakljuèili, ko bo vse zloge dvakrat pravilno ponovil. Potem bomo toèkovali njegove rezultate.
+
+\newpage
+\section{Rezultati}
+\subsection{Grafièni prikaz rezultatov}
+\begin{table}[h]\centering
+
+\caption{Tabela rezultatov}
+
+%\mbox{}\hspace{-2em}
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{ccccccccccccccccccccccccccccc}
+%  \hline{1-22}
+Št. poskusov & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24 & 25 & 26 & 27 & 28 \\
+  Št. toèk & 3 & 5 & 1 & 1,5 & 6 & 5 & 2,5 & 7 & 7 & 7 & 7 & 7 & 5 & 7 & 7 & 7 & 7 & 1 & 8 & 1 & 1 & 5 & 7 & 8 & 11 & 5 & 11 & 11 \\
+%  \hline{1-22}
+\end{tabular}
+
+\end{table}
+
+
+\begin{figure}[!htbp]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=.9\textwidth]{Graf2.pdf}\\
+  \caption{Graf števila toèk v odvisnosti od števila poskusov z ustrezno prilegajoèo se parabolièno krivuljo.}\label{figure:Graf 1}
+\end{figure}
+
+
+\begin{table}
+\caption{Skupna tabela razreda}
+\begin{footnotesize}
+\begin{sideways}
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline
+
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+   & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24 & 25 & 26 & 27 & 28 \\
+   \hline
+  1 & 3 & 3,5 & 8 & 9 & 3 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  2 & 3 & 5 & 4 & 8,5 & 10 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  3 & 4 & 5,5 & 6 & 6 & 6 & 8 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  4 & 3,5 & 6 & 7 & 9 & 10 & 11 & 10 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  5 & 2 & 3,5 & 1 & 4 & 6,5 & 6,5 & 7 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  6 & 1 & 4 & 5,5 & 7 & 7,5 & 11 & 7,5 & 7,5 & 11 &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  7 & 4 & 6 & 7 & 8 & 7 & 6 & 10 & 10 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  8 & 2,5 & 3 & 4,5 & 6 & 8 & 4 & 5,5 & 4,5 & 5,5 & 10 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  9 & 2 & 1 & 4 & 6 & 6 & 3 & 4 & 6 & 6 & 7 & 9 & 7 & 9 & 11 & 11 &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  10 & 2,5 & 5 & 6,5 & 6 & 6,5 & 7,5 & 8 & 8 & 7,5 & 6,5 & 4 & 7,5 & 6,5 & 7 & 8 & 5 & 8 & 4 & 6 & 8 & 10 & 11 & 11 &   &   &   &   &   \\
+  11 & 5 & 4,5 & 4 & 4 & 4,5 & 6 & 7 & 2 & 8,5 & 6,5 & 5,5 & 7 & 7 & 4,5 & 8 & 9 & 8 & 9,5 & 3 & 3 & 9 & 6 & 11 & 11 &   &   &   &   \\
+  12 & 3 & 5 & 1 & 1,5 & 6 & 5 & 2,5 & 7 & 7 & 7 & 7 & 7 & 5 & 7 & 7 & 7 & 7 & 2 & 5 & 6 & 8 & 8 & 10 & 11 & 11 &   &   &   \\
+  13 & 3 & 5 & 1 & 1,5 & 6 & 5 & 2,5 & 7 & 7 & 7 & 7 & 7 & 5 & 7 & 7 & 7 & 7 & 1 & 8 & 1 & 1 & 5 & 7 & 8 & 11 & 5 & 11 & 11 \\
+  \hline
+\end{tabular}
+\end{sideways}
+\end{footnotesize}
+\end{table}
+\newpage
+
+\subsection{Poroèilo eksperimentatorja}
+
+Preuèevanec je imel s pomnjenjem zlogov nemalo težav, kar dokazuje zelo veliko število poskusov. Motil ga je predvsem hrup na hodniku ter veliko število mimoidoèih. Sprva je preuèevanec sprošèen ležal na mizi z zaprtimi oèmi ter štel na prste. Kasneje je nehal šteti na prste, ni veè ležal na mizi, temveè se je usedel in postajal vse bolj resen. Veèkrat se je pritožil zaradi hrupa na hodniku. Proti koncu je preuèevanec vstal in zaèel ponovno šteti na prste ter obèasno tudi ponavljti na glas za menoj medtem, ko sem mu zloge naglas prebiral. Po veèkratnih ponovitvah si je zapomnil veèino zlogov, vendar ne v pravem vrstnem redu. Veèkrat je tudi zamešal èrke, ki so podobno zvenele naprimer dut je postal dot ipd. Po kar precej ponovitvah si je zapomnil vse zloge. Po konèanem eksperimentu pa je dejal, da verjetno ne bi mogel še enkrat ponoviti vseh zlogov.
+
+\subsection{Introspektivno poroèilo}
+
+Ko smo preuèevanca vprašali kakšno strategijo je uporabil, da si je zapomnil vse zloge je odgovoril da si je najprej zapomnil prvih nekaj zlogov in si pri tem pomagal s štetjem le-teh, potem je enako naredil z zadnjimi in jih na koncu sestavil skupaj in povedal vse. Preuèevanec ni uporabil nobenih asociacij.
+
+
+\newpage
+\section{Interpretacija}
+
+Dobili smo pozitivno pospešeno krivuljo. V zaèetku je znanje poèasi narašèalo, verjetno zaradi majhne motivacije (nezanimanja) in pa, ker je bila to oèitno za preuèevanca težka snov za uèenje. Potem pa je zaèelo znanje narašèati vse hitreje, domnevno zaradi poveèane motivacije in razmišljanja v smeri: ``Hitro moram konèati, ne smem biti najslabši.'' Pojavili pa so se tudi nenadni padci v krivulji, kar se je verjetno zgodilo zaradi padca koncentracije, ki je lahko posledica utrujenosti ali pa moteèih dejavnikov (hrup iz razredov; hrup, ki so ga povzroèali mimoidoèi ipd.). Ob primerjavi grafa (tabele) lahko opazimo veliko podobnost preuèevanca številka 12 in 13. Èe pa primerjamo našega preuèevanca (13) lahko pri veèini ostalih primerov opazimo drugaèno obliko grafa tj. negativno pospešeno krivuljo. Veliko število poskusov bi pojasnili s tem, da bi hkrati utrdili našo hipotezo o tem, da se s pomoèjo asociacij lažje uèimo. Naš preuèevanec asociacij kot pravi ni uporabil in s tem lahko do neke mere pojasnimo veliko število poskusov. Eksperiment bi izboljšal tako, da bi ga opravil s spoèito osebo in bi ob tem odstranil vse moteèe dejavnike (predvsem hrup).
+
+\newpage
+
+\section{Viri}
+
+\begin{thebibliography}{99}
+
+  \bibitem{1} Kompare, Stražišar, Vec, Dogša, Jaušovec, Curk (2006), UVOD V PSIHOLOGIJO, Lj., DZS	
+  \bibitem{2} Peèjak, Vid (1977), PSIHOLOGIJA SPOZNAVANJA, Lj., DZS	
+
+\end{thebibliography}
+
+
+
+\end{document}
