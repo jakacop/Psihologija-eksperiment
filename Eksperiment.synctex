@@ -1,5 +1,5 @@
 SyncTeX Version:1
-Input:1:D:/Users\jCop\Google Drive\Psiha\Eksperiment.tex
+Input:1:D:/Users\jCop\Documents\GitHub\Psihologija-eksperiment\Eksperiment.tex
 Input:2:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls
 Input:3:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo
 Input:4:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty
@@ -99,7 +99,7 @@ Input:97:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
 Input:98:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty
 Input:99:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty
 Input:100:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\rotating.sty
-Input:101:D:\Users\jCop\Google Drive\Psiha\Eksperiment.aux
+Input:101:D:\Users\jCop\Documents\GitHub\Psihologija-eksperiment\Eksperiment.aux
 Input:102:C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
 Input:103:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 Input:104:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
@@ -116,7 +116,7 @@ Unit:1
 X Offset:0
 Y Offset:0
 Content:
-!9377
+!9421
 {1
 [1,38:4736286,47378389:28548188,42642103,285084
 h1,38:4736286,4736286:0,0,0
@@ -206,18 +206,16 @@ g1,25:26803380,16049140
 k1,25:33284474,16049140:6481094
 )
 (1,26:5873801,19037500:27410673,837997,183506
-k1,26:16666167,19037500:10792366
-h1,26:16666167,19037500:0,0,0
-x1,26:18050999,19037500
-x1,26:18450194,19037500
-g1,26:18749478,19037500
-x1,26:20596041,19037500
-g1,26:20895325,19037500
-x1,26:21593804,19037500
-g1,26:21992999,19037500
-x1,26:22492107,19037500
-g1,26:22492107,19037500
-k1,26:33284473,19037500:10792366
+k1,26:16865765,19037500:10991964
+h1,26:16865765,19037500:0,0,0
+x1,26:18250597,19037500
+x1,26:18649792,19037500
+g1,26:18949076,19037500
+x1,26:20795639,19037500
+g1,26:21094923,19037500
+x1,26:22292510,19037500
+g1,26:22292510,19037500
+k1,26:33284474,19037500:10991964
 )
 (1,30:5873801,31305898:27410673,649902,0
 (1,29:5873801,31305898:0,0,0
@@ -322,10 +320,10 @@ g1,38:33284474,47378389
 )
 ]
 ]
-!4996
+!4948
 }1
-Input:112:D:\Users\jCop\Google Drive\Psiha\Eksperiment.toc
-!68
+Input:112:D:\Users\jCop\Documents\GitHub\Psihologija-eksperiment\Eksperiment.toc
+!90
 {2
 [1,42:4736286,47542228:28548188,42805942,285084
 h1,42:4736286,4736286:0,0,0
@@ -10524,9 +10522,9 @@ g1,176:33284474,47578105
 ]
 !5092
 }12
-Input:113:D:\Users\jCop\Google Drive\Psiha\Eksperiment.aux
-!69
+Input:113:D:\Users\jCop\Documents\GitHub\Psihologija-eksperiment\Eksperiment.aux
+!91
 Postamble:
-Count:7595
+Count:7594
 !26
 Post scriptum:

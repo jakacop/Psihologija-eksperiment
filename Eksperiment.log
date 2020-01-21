@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.18)  20 JAN 2020 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.18)  21 JAN 2020 13:30
 entering extended mode
-**"D:/Users/jCop/Google Drive/Psiha/Eksperiment.tex"
-("D:/Users/jCop/Google Drive/Psiha/Eksperiment.tex"
+**D:/Users/jCop/Documents/GitHub/Psihologija-eksperiment/Eksperiment.tex
+(D:/Users/jCop/Documents/GitHub/Psihologija-eksperiment/Eksperiment.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -640,12 +640,12 @@ LaTeX Warning: Float too large for page by 112.55548pt on input line 146.
 [8 <./Graf2.pdf>] [9] [10] [11] [12] (Eksperiment.aux) ) 
 Here is how much of TeX's memory you used:
  14044 strings out of 493334
- 273762 string characters out of 3136675
+ 273826 string characters out of 3136675
  345624 words of memory out of 3000000
  17292 multiletter control sequences out of 15000+200000
  13617 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,1229b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,56p,1249b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
  <D:\Users\jCop\AppData
 \Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <D:\Users\jCo
 p\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <D:\
